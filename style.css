@@ -24,7 +24,7 @@ body {
     background-blend-mode: overlay;
 
     flex: 1;
-    transition: flex 1000ms linear;
+    transition: all 1000ms linear; /*needed to change the property from flex to all since it didn't work on safari*/
 }
 
 .dc {
@@ -38,13 +38,13 @@ body {
     background-blend-mode: overlay;
 
     flex: 1;
-    transition: flex 1000ms linear;
+    transition: all 1000ms linear;
 }
 
 .marvel:hover,
 .dc:hover {
     flex: 3;
-    transition: flex 1000ms linear;
+    transition: all 1000ms linear;
 }
 
 .title {
