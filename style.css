@@ -72,3 +72,19 @@ body {
     background-color: inherit;
     border: 2px solid transparent;
 }
+
+@media (max-width: 750px) {
+    body {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+}
